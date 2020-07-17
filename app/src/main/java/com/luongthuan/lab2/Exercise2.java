@@ -10,7 +10,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Exercise2 extends AppCompatActivity {
-    String link2 = "http://10.0.3.2:9090/rectangle";
+    // gắn link api cho máy ảo
+    //String link2 = "http://10.0.3.2:9090/rectangle";
+    // gắn link api cho máy thật lấy địa chỉ ip thay localhost
+    String link2 = "http://192.168.35.104:9090/rectangle";
     EditText edtRong, edtDai;
     Button btnSend2;
     TextView tvResult2;

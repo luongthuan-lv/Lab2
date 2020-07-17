@@ -13,7 +13,9 @@ public class Exercise3 extends AppCompatActivity {
     EditText edtCanh;
     Button btnSend3;
     TextView tvResult3;
-    String link3="http://10.0.3.2:9090/cube";
+    // gắn link api cho máy ảo
+    //String link3="http://10.0.3.2:9090/cube";
+    String link3="http://192.168.35.104:9090/cube";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

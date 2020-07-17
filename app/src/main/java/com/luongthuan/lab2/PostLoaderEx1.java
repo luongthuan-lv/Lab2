@@ -6,6 +6,9 @@ import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.TextView;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStream;
@@ -79,6 +82,16 @@ public class PostLoaderEx1 extends AsyncTask<String, Integer, String> {
         if (progressDialog.isShowing()) {
             progressDialog.dismiss();
         }
+//        try {
+//            JSONObject jsonObject=new JSONObject(s);
+//            String name=jsonObject.getString("name");
+//            String score=jsonObject.getString("score");
+//           Log.e("dđ",name);
+//            tvResult.setText(name);
+//        } catch (JSONException e) {
+//            e.printStackTrace();
+//        }
+
         if (s != null) tvResult.setText(s);
     }
 }

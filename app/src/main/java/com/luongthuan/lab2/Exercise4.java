@@ -9,7 +9,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class Exercise4 extends AppCompatActivity {
-    String link4 = "http://10.0.3.2:9090/phuongtrinh";
+    // gắn link api cho máy ảo
+    //String link4 = "http://10.0.3.2:9090/phuongtrinh";
+    String link4 = "http://192.168.35.104:9090/phuongtrinh";
+
     EditText edtA, edtB, edtC;
     Button btnSend4;
     TextView tvResult4;

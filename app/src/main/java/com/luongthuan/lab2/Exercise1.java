@@ -9,7 +9,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class Exercise1 extends AppCompatActivity {
+    // gắn link api cho máy ảo
     String link = "http://10.0.3.2:9090/student";
+    //String link = "http://192.168.35.104:9090/student";
 
     EditText edtName, edtScore;
     Button btnSend1;
